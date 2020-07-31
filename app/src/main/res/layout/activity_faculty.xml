@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FacultyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/heading_background"
+        android:text="DEPARTMENT"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:text="CSE"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+           android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Activity_Faculty_CSE_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/faculty"
+
+
+            android:layout_weight="1"
+            android:id="@+id/Activity_Technical_CSE_Button"
+            android:text="Technical Assistant"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="ECE" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@color/faculty"
+            android:id="@+id/Activity_Faculty_ECE_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/faculty"
+            android:id="@+id/Activity_Technical_ECE_Button"
+            android:text="Technical Assistant"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="IT" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@color/faculty"
+            android:id="@+id/Activity_Faculty_IT_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/faculty"
+            android:id="@+id/Activity_Technical_IT_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="ME" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/Activity_Faculty_ME_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/faculty"
+            android:id="@+id/Activity_Technical_ME_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+        android:text="CE" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Activity_Faculty_CE_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:id="@+id/Activity_Technical_CE_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="EE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Activity_Faculty_EE_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:id="@+id/Activity_Technical_EE_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="BCA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Activity_Faculty_BBA_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:id="@+id/Activity_Technical_BBA_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@color/departmentColor"
+
+
+
+        android:text="BCA" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:id="@+id/Activity_Faculty_BCA_Button"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/faculty"
+            android:layout_weight="1"
+            android:id="@+id/Activity_Technical_BCA_Button"
+            android:text="Technical Assistant"/>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3949AB</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="faculty">#d1c4e9</color>
+    <color name="departmentColor">#673ab7</color>
+    <color name="white">#263238</color>
+    <color name="redlistdark">#ff0000</color>
+    <color name="redlistlight">#EF5350</color>
+    <color name="pureWhite">#ffffff</color>
+    <color name="red_btn">#000000</color>
+    <color name="blood_red_button">#80ff0000</color>
+</resources>

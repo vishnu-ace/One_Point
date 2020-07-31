@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/map"
+            android:title="Maps" />
+
+        <item
+            android:id="@+id/notice"
+            android:title="Notice"
+            android:icon="@drawable/news"/>
+
+        <item
+            android:id="@+id/faculty"
+            android:icon="@drawable/teacher"
+            android:title="Faculty" />
+
+        <item
+            android:id="@+id/labs"
+            android:icon="@drawable/labs_laptop"
+            android:title="Labs" />
+
+        <item
+            android:id="@+id/club"
+            android:icon="@drawable/club_icon"
+            android:title="Club" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/gallery_icon"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/bloodbank"
+            android:icon="@drawable/blood_icon"
+            android:title="Blood Bank" />
+
+        <item
+            android:id="@+id/charity"
+            android:icon="@drawable/charity_icon"
+            android:title="Charity" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/attendance_icon"
+            android:title="Attendance" />
+
+
+        <item
+            android:id="@+id/collegewebsite"
+            android:icon="@drawable/website_icon"
+            android:title="College Website" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/rate"
+                android:title="Rate Us" />
+
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/aboutus_icon"
+                android:title="Team" />
+
+
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

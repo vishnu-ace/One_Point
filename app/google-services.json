@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335931551361",
+    "firebase_url": "https://one-point-be856.firebaseio.com",
+    "project_id": "one-point-be856",
+    "storage_bucket": "one-point-be856.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335931551361:android:ed55146517e11b3d03e780",
+        "android_client_info": {
+          "package_name": "com.example.onepoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335931551361-nn3dslliqgmm61hs52ggn10jltb61htv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxVpla0IahvKYAaDfeIzZxSK_mZzROQ4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335931551361-nn3dslliqgmm61hs52ggn10jltb61htv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/listview_outline_background"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textviewFacultyName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="70"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginRight="16dp"
+            android:textColor="@color/departmentColor"
+            android:gravity="center"
+            android:text="Textview1"
+            android:textAlignment="center" />
+
+
+
+        <TextView
+            android:id="@+id/textviewDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@color/faculty"
+            android:layout_marginRight="16dp"
+            android:text="textview2" />
+
+        <TextView
+            android:id="@+id/textviewPhoneno"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginRight="16dp"
+            android:text="textview3" />
+
+        <TextView
+            android:id="@+id/textviewEmail"
+            android:layout_width="match_parent"
+            android:background="@color/faculty"
+            android:layout_height="30dp"
+            android:layout_marginRight="16dp"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:text="textview4" />
+    </LinearLayout>
+
+
+</LinearLayout>
